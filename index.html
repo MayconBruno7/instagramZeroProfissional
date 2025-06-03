@@ -57,41 +57,88 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
     <!-- Header -->
-    <header class="gradient-bg text-white py-12 px-4 md:px-8">
-        <div class="container mx-auto max-w-6xl">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="md:w-1/2 mb-8 md:mb-0">
-                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Instagram do Zero ao Profissional</h1>
-                    <p class="text-xl mb-6">O Guia Completo para Criar, Crescer e Lucrar com Seu Perfil!</p>
-                    <div class="flex space-x-4">
-                        <a href="#download" class="bg-white text-pink-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition duration-300">Baixar eBook</a>
-                        <a href="#preview" class="border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:bg-opacity-20 transition duration-300">Ver Prévia</a>
+<header class="gradient-bg text-white py-12 px-4 md:px-8">
+  <div class="container mx-auto max-w-6xl">
+    <div class="flex flex-col md:flex-row items-center">
+      
+      <!-- Texto de Apresentação -->
+      <div class="md:w-1/2 mb-8 md:mb-0">
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">Instagram do Zero ao Profissional</h1>
+        <p class="text-xl mb-6 italic">O Guia Definitivo Para Construir, Crescer e Monetizar Seu Perfil — Mesmo se Você Não Tem Experiência!</p>
+
+        <!-- Preço com Destaque -->
+        <div class="flex space-x-4 items-center mb-6">
+          <div class="bg-red-500 bg-opacity-20 px-3 py-1 rounded-md">
+            <h2 class="text-lg line-through">De R$149,90</h2>
+          </div>
+          <div>
+            <h2 class="text-3xl font-extrabold text-yellow-400">R$44,70</h2>
+          </div>
+        </div>
+
+        <!-- Botão de CTA -->
+        <div class="flex flex-col sm:flex-row gap-4">
+         <a href="#" class="inline-block bg-white text-pink-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-md transition duration-300 transform hover:scale-105">
+          <span class="flex items-center justify-center">
+            <i class="fas fa-book-reader mr-2"></i>
+            QUERO O GUIA COM DESCONTO
+          </span>
+        </a>
+        </div>
+
+          <p class="text-sm text-white mt-2 sm:mt-3 text-center sm:text-left">
+            Acesso imediato • Garantia de 7 dias • Conteúdo Atualizado 2024
+          </p>
+
+      </div>
+
+      <!-- Mockup do Ebook (Capa Visual) -->
+      <div class="md:w-1/2 flex justify-center">
+        <div class="relative w-64 h-80 md:w-80 md:h-96 bg-white rounded-lg shadow-xl transform rotate-3 transition duration-300 hover:shadow-2xl">
+
+            <!-- Overlay colorido -->
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-500 opacity-15 rounded-lg"></div>
+
+                <!-- Conteúdo principal -->
+                <div class="absolute inset-4 bg-white rounded-md shadow-inner flex flex-col p-4">
+
+                    <!-- Barra superior estilo app -->
+                    <div class="h-8 flex items-center px-3 border-b border-gray-200 mb-3">
+                        <div class="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500 mr-2"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500"></div>
                     </div>
-                </div>
-                <div class="md:w-1/2 flex justify-center">
-                    <div class="relative w-64 h-80 md:w-80 md:h-96 bg-white rounded-lg shadow-xl transform rotate-3">
-                        <div class="absolute inset-0 bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 opacity-20 rounded-lg"></div>
-                        <div class="absolute inset-4 bg-white rounded-md shadow-inner flex flex-col">
-                            <div class="h-8 flex items-center px-3 border-b">
-                                <div class="w-3 h-3 rounded-full bg-red-500 mr-2"></div>
-                                <div class="w-3 h-3 rounded-full bg-yellow-500 mr-2"></div>
-                                <div class="w-3 h-3 rounded-full bg-green-500"></div>
-                            </div>
-                            <div class="flex-1 p-4 overflow-y-auto">
-                                <h3 class="font-bold text-lg mb-2 text-center">Instagram do Zero ao Profissional</h3>
-                                <p class="text-sm text-gray-600">Transforme seu perfil em uma máquina de engajamento e lucros com este guia completo!</p>
-                                <div class="mt-4 flex justify-center">
-                                    <div class="instagram-story">
-                                        <i class="fab fa-instagram text-white text-3xl"></i>
-                                    </div>
-                                </div>
-                            </div>
+
+                    <!-- Título do ebook -->
+                    <h3 class="font-bold text-lg mb-2 text-center">Instagram do Zero ao Profissional</h3>
+                    <p class="text-sm text-gray-600 mb-4 text-center">
+                        Como construir, crescer e monetizar seu perfil do Instagram.
+                    </p>
+
+                    <!-- Simulação de gráfico de insights -->
+                    <div class="flex-1 flex flex-col items-center justify-center space-y-3">
+                        
+                        <!-- Gráfico simples -->
+                        <img src="img/instagram.jpg" alt="Instagram Insights" class="w-64 h-32 object-cover rounded-md mb-2">
+
+                        <!-- Legenda do gráfico -->
+                        <p class="text-xs text-gray-500 text-center">
+                        Exemplo de crescimento de engajamento semanal
+                        </p>
+
+                        <!-- Ícone de estatísticas -->
+                        <div class="mt-4 flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-teal-400 shadow-md">
+                        <i class="fas fa-chart-line text-white text-2xl"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+      </div>
+
+    </div>
+  </div>
+</header>
 
     <!-- Introduction -->
     <section id="intro" class="py-16 px-4 md:px-8 bg-white">
@@ -143,239 +190,388 @@
 
     <!-- Chapters Preview -->
     <section id="preview" class="py-16 px-4 md:px-8 bg-gray-50">
-        <div class="container mx-auto max-w-6xl">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold mb-4">Conteúdo do eBook</h2>
-                <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mb-6"></div>
-                <p class="text-gray-600 max-w-2xl mx-auto">Um guia completo com 8 capítulos recheados de estratégias práticas para dominar o Instagram</p>
-            </div>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Chapter 1 -->
-                <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
-                    <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                        <span class="font-bold">1</span>
-                    </div>
-                    <h3 class="font-bold text-xl mb-3">O Começo - Preparando Seu Perfil</h3>
-                    <ul class="text-gray-600 space-y-2">
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Criando uma Bio Irresistível</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Escolha de nome de usuário</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Foto de perfil profissional</span>
-                        </li>
-                    </ul>
-                </div>
-                
-                <!-- Chapter 2 -->
-                <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
-                    <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                        <span class="font-bold">2</span>
-                    </div>
-                    <h3 class="font-bold text-xl mb-3">Criando Conteúdo Que Engaja</h3>
-                    <ul class="text-gray-600 space-y-2">
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Postagens que convertem</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Roteiro para Carrosséis</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Estratégias para Reels</span>
-                        </li>
-                    </ul>
-                </div>
-                
-                <!-- Chapter 3 -->
-                <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
-                    <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                        <span class="font-bold">3</span>
-                    </div>
-                    <h3 class="font-bold text-xl mb-3">Planejamento de Conteúdo</h3>
-                    <ul class="text-gray-600 space-y-2">
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Agenda Semanal</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Ferramentas de organização</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Consistência e frequência</span>
-                        </li>
-                    </ul>
-                </div>
-                
-                <!-- Chapter 4 -->
-                <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
-                    <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                        <span class="font-bold">4</span>
-                    </div>
-                    <h3 class="font-bold text-xl mb-3">Dominando o Algoritmo</h3>
-                    <ul class="text-gray-600 space-y-2">
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Como o algoritmo funciona</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Estratégias de alcance</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Engajamento nos Stories</span>
-                        </li>
-                    </ul>
-                </div>
-                
-                <!-- Chapter 5 -->
-                <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
-                    <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                        <span class="font-bold">5</span>
-                    </div>
-                    <h3 class="font-bold text-xl mb-3">Encontrando Seu Nicho</h3>
-                    <ul class="text-gray-600 space-y-2">
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Escolha do nicho perfeito</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Identificação do público</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Uso do Instagram Insights</span>
-                        </li>
-                    </ul>
-                </div>
-                
-                <!-- Chapter 6-8 -->
-                <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
-                    <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
-                        <span class="font-bold">6-8</span>
-                    </div>
-                    <h3 class="font-bold text-xl mb-3">Hashtags e Monetização</h3>
-                    <ul class="text-gray-600 space-y-2">
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Hashtags virais</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Modelos de monetização</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
-                            <span>Uso do ChatGPT</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+  <div class="container mx-auto max-w-6xl">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-4">Conteúdo do eBook</h2>
+      <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mb-6"></div>
+      <p class="text-gray-600 max-w-2xl mx-auto">Um guia completo com 12 capítulos recheados de estratégias práticas para dominar o Instagram</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Capítulo 1 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">1</span>
         </div>
-    </section>
+        <h3 class="font-bold text-xl mb-3">Introdução ao Instagram</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>O que é o Instagram</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Por que ele é poderoso para renda extra</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Estatísticas atuais e histórico</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Capítulo 2 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">2</span>
+        </div>
+        <h3 class="font-bold text-xl mb-3">Criando Seu Perfil do Zero</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Criar conta pessoal vs. profissional</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Configurações iniciais essenciais</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Definir nicho e propósito claro</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Capítulo 3 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">3</span>
+        </div>
+        <h3 class="font-bold text-xl mb-3">Entendendo o Algoritmo</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Como o feed funciona</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Priorização de Stories, Reels e Posts</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Fatores de engajamento e alcance</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Capítulo 4 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">4</span>
+        </div>
+        <h3 class="font-bold text-xl mb-3">Ferramentas Essenciais</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Ferramentas gratuitas (Canva, CapCut)</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Ferramentas pagas (Later, Iconosquare)</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Análise de desempenho</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Capítulo 5 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">5</span>
+        </div>
+        <h3 class="font-bold text-xl mb-3">Produção de Conteúdo de Alta Qualidade</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Tipos de conteúdo eficazes</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Formatos mais engajantes</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Horários ideais e edição</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Capítulo 6 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">6</span>
+        </div>
+        <h3 class="font-bold text-xl mb-3">Engajamento Efetivo</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Incentivar curtidas e comentários</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Stories interativos (perguntas, enquetes)</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Construir uma comunidade fiel</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Capítulo 7 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">7</span>
+        </div>
+        <h3 class="font-bold text-xl mb-3">Crescimento Orgânico vs. Pago</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Diferenças entre crescimento orgânico e pago</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Quando investir em anúncios</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Hashtags e localizações corretas</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Capítulo 8 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">8</span>
+        </div>
+        <h3 class="font-bold text-xl mb-3">Monetização no Instagram</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Afiliados e produtos digitais</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Parcerias com marcas</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Lives patrocinadas e assinaturas</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Capítulo 9 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">9</span>
+        </div>
+        <h3 class="font-bold text-xl mb-3">Planejamento e Organização</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Cronograma semanal de publicação</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Uso de planilhas e apps</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Metas SMART e métricas importantes</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Capítulo 10 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">10</span>
+        </div>
+        <h3 class="font-bold text-xl mb-3">Dicas Avançadas e Tendências</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Novas funcionalidades do Instagram</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Uso de IA para legendas e roteiros</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Cross-posting com outras redes</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Capítulo 11 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">11</span>
+        </div>
+        <h3 class="font-bold text-xl mb-3">Checklist Final e Recomendações</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Checklist inicial e diário</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Preparação para monetizar</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Práticas a evitar (spam, seguidores falsos)</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Capítulo 12 -->
+      <div class="bg-white p-6 rounded-xl shadow-md chapter-card transition duration-300">
+        <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+          <span class="font-bold">12</span>
+        </div>
+        <h3 class="font-bold text-xl mb-3">Bônus: Ferramentas e Recursos</h3>
+        <ul class="text-gray-600 space-y-2">
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Ferramentas recomendadas (grátis e pagas)</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Cursos e livros sobre Instagram</span>
+          </li>
+          <li class="flex items-start">
+            <i class="fas fa-check-circle text-purple-500 mt-1 mr-2"></i>
+            <span>Comunidades brasileiras e internacionais</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
 
     <!-- Sample Content -->
     <section class="py-16 px-4 md:px-8 bg-white">
-        <div class="container mx-auto max-w-6xl">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold mb-4">Amostra do Conteúdo</h2>
-                <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mb-6"></div>
-            </div>
-            
-            <div class="grid md:grid-cols-2 gap-12">
-                <!-- Bio Example -->
-                <div>
-                    <h3 class="font-bold text-2xl mb-6 flex items-center">
-                        <div class="bg-purple-500 text-white w-10 h-10 rounded-full flex items-center justify-center mr-4">1.1</div>
-                        Criando uma Bio Irresistível
-                    </h3>
-                    
-                    <div class="bg-gray-50 p-6 rounded-lg mb-6 highlight-box">
-                        <h4 class="font-bold text-lg mb-3 text-purple-600">Por que sua bio é importante?</h4>
-                        <p class="text-gray-600">A bio é o cartão de visitas do seu perfil, e é o primeiro lugar onde as pessoas vão procurar saber quem você é e o que oferece.</p>
-                    </div>
-                    
-                    <div class="instagram-post p-4 mb-6">
-                        <div class="flex items-center mb-4">
-                            <div class="w-10 h-10 rounded-full bg-gray-300 mr-3"></div>
-                            <div>
-                                <p class="font-semibold">empreendedor.digital</p>
-                                <p class="text-xs text-gray-500">Perfil profissional</p>
-                            </div>
-                        </div>
-                        <div class="mb-4">
-                            <p class="font-semibold">🚀 Empreendedor Digital</p>
-                            <p>Transformo seguidores em clientes 📈</p>
-                            <p>📚 Baixe meu eBook gratuito no link abaixo!</p>
-                            <p>👉 instagram.com/empreendedor.digital</p>
-                        </div>
-                        <div class="text-xs text-gray-500">
-                            <span class="mr-3">12 posts</span>
-                            <span class="mr-3">1,234 seguidores</span>
-                            <span>567 seguindo</span>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
-                        <h4 class="font-bold text-lg mb-2 text-yellow-700">Dica profissional</h4>
-                        <p class="text-gray-700">Seja claro e objetivo. Use as palavras certas que gerem curiosidade e conversão. Inclua sempre uma chamada para ação clara.</p>
-                    </div>
-                </div>
-                
-                <!-- Post Example -->
-                <div>
-                    <h3 class="font-bold text-2xl mb-6 flex items-center">
-                        <div class="bg-purple-500 text-white w-10 h-10 rounded-full flex items-center justify-center mr-4">2.1</div>
-                        Postagens que Convertem
-                    </h3>
-                    
-                    <div class="instagram-post p-4 mb-6">
-                        <div class="flex items-center mb-4">
-                            <div class="w-10 h-10 rounded-full bg-gray-300 mr-3"></div>
-                            <div>
-                                <p class="font-semibold">marketing.digital</p>
-                                <p class="text-xs text-gray-500">Dicas para crescer no Instagram</p>
-                            </div>
-                        </div>
-                        <div class="mb-4">
-                            <p class="font-bold text-lg mb-2">Você sabia que pode aumentar seu engajamento em 30% com uma simples mudança?</p>
-                            <p class="text-gray-700 mb-3">Mudar o horário das suas postagens pode influenciar diretamente no engajamento. O melhor horário varia conforme seu público, mas geralmente entre 18h-21h tem maior alcance.</p>
-                            <p class="font-semibold">Experimente e me conte nos comentários!</p>
-                        </div>
-                        <div class="flex justify-between text-gray-500 text-sm">
-                            <div class="flex space-x-4">
-                                <span><i class="far fa-heart mr-1"></i> 245</span>
-                                <span><i class="far fa-comment mr-1"></i> 32</span>
-                                <span><i class="far fa-share-square mr-1"></i> 12</span>
-                            </div>
-                            <span><i class="far fa-bookmark"></i></span>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-blue-50 border-l-4 border-blue-400 p-4">
-                        <h4 class="font-bold text-lg mb-2 text-blue-700">Estrutura de uma boa postagem</h4>
-                        <ol class="list-decimal pl-5 space-y-1 text-gray-700">
-                            <li>Título chamativo (primeira frase)</li>
-                            <li>Corpo com dicas práticas</li>
-                            <li>Chamada para Ação clara</li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
+  <div class="container mx-auto max-w-6xl">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold mb-4">Amostra do Conteúdo</h2>
+      <div class="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mb-6"></div>
+      <p class="text-gray-600 max-w-2xl mx-auto">Veja como é fácil aplicar os conceitos do ebook no seu dia a dia</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-12">
+      
+      <!-- BIO IRRESISTÍVEL -->
+      <div>
+        <h3 class="font-bold text-2xl mb-6 flex items-center">
+          <div class="bg-purple-500 text-white w-10 h-10 rounded-full flex items-center justify-center mr-4">1.1</div>
+          Criando uma Bio Irresistível
+        </h3>
+
+        <div class="bg-gray-50 p-6 rounded-lg mb-6 highlight-box shadow-sm">
+          <h4 class="font-bold text-lg mb-3 text-purple-600">Por que sua bio é importante?</h4>
+          <p class="text-gray-600">A bio do Instagram é o seu primeiro contato com o público. Ela precisa ser clara, atrativa e direta ao ponto — afinal, você tem poucos segundos para impressionar.</p>
         </div>
-    </section>
+
+        <!-- Simulação de Perfil -->
+        <div class="instagram-post bg-white p-4 border border-gray-200 rounded-lg mb-6">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 mr-3"></div>
+            <div>
+              <p class="font-semibold">@empreendedorrealista</p>
+              <p class="text-xs text-gray-500">Coach | Marketing Digital | Renda Extra</p>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <p class="font-semibold">🚀 Do Zero ao Lucro</p>
+            <p>Seu guia para monetizar no Instagram</p>
+            <p>🔗 Link na bio ➡️ clique aqui</p>
+          </div>
+
+          <div class="text-xs text-gray-500">
+            <span class="mr-3">98 posts</span>
+            <span class="mr-3">2,1k seguidores</span>
+            <span>450 seguindo</span>
+          </div>
+        </div>
+
+        <!-- Dica Profissional -->
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-md">
+          <h4 class="font-bold text-lg mb-2 text-yellow-700">Dica profissional</h4>
+          <p class="text-gray-700">Use emojis estratégicos e palavras-chave que mostrem valor imediato. Exemplo: “Transforme X em Y”, “De zero a X em 30 dias”.</p>
+        </div>
+      </div>
+
+      <!-- POSTAGENS QUE CONVERTEM -->
+      <div>
+        <h3 class="font-bold text-2xl mb-6 flex items-center">
+          <div class="bg-purple-500 text-white w-10 h-10 rounded-full flex items-center justify-center mr-4">2.1</div>
+          Postagens que Convertem
+        </h3>
+
+        <!-- Simulação de Postagem -->
+        <div class="instagram-post bg-white p-4 border border-gray-200 rounded-lg mb-6 shadow-sm">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 mr-3"></div>
+            <div>
+              <p class="font-semibold">@produtividade.real</p>
+              <p class="text-xs text-gray-500">Especialista em tempo e rendimento</p>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <p class="font-bold text-lg mb-2">Você gasta mais tempo do que resultado?</p>
+            <p class="text-gray-700 mb-3">Muita gente posta todos os dias… mas sem estratégia. Seja diferente: planeje, execute e meça resultados.</p>
+            <p class="font-semibold">✅ Use o método PAS nas legendas:</p>
+            <ul class="list-disc pl-5 text-gray-700 space-y-1">
+              <li><strong>Problema:</strong> Mostre algo comum do seu nicho</li>
+              <li><strong>Agitação:</strong> Destaque as frustrações</li>
+              <li><strong>Solução:</strong> Ofereça valor ou link de ação</li>
+            </ul>
+          </div>
+
+          <!-- Interações simuladas -->
+          <div class="flex justify-between text-gray-500 text-sm">
+            <div class="flex space-x-4">
+              <span><i class="far fa-heart mr-1"></i> 387</span>
+              <span><i class="far fa-comment mr-1"></i> 41</span>
+              <span><i class="far fa-share-square mr-1"></i> 15</span>
+            </div>
+            <span><i class="far fa-bookmark"></i></span>
+          </div>
+        </div>
+
+        <!-- Estrutura de uma boa postagem -->
+        <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-md">
+          <h4 class="font-bold text-lg mb-2 text-blue-700">Estrutura de uma boa postagem</h4>
+          <ol class="list-decimal pl-5 text-gray-700 space-y-1">
+            <li>Título chamativo (primeira frase)</li>
+            <li>Dê valor logo no início</li>
+            <li>Incentive interação (“deixa seu comentário”, “marca um amigo”)</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Monetization -->
     <section class="py-16 px-4 md:px-8 bg-gradient-to-r from-purple-50 to-pink-50">
@@ -423,28 +619,56 @@
     </section>
 
     <!-- Download CTA -->
-    <section id="download" class="py-16 px-4 md:px-8 bg-white">
-        <div class="container mx-auto max-w-4xl text-center">
-            <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-8 rounded-xl shadow-lg">
-                <h2 class="text-3xl font-bold mb-4">Baixe seu eBook agora!</h2>
-                <p class="text-xl mb-8 text-purple-100">Domine o Instagram e transforme seu perfil em uma máquina de engajamento e lucros</p>
-                
-                <form class="max-w-md mx-auto">
-                    <div class="mb-4">
-                        <input type="text" placeholder="Seu nome" class="w-full px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300">
-                    </div>
-                    <div class="mb-4">
-                        <input type="email" placeholder="Seu melhor e-mail" class="w-full px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-300">
-                    </div>
-                    <button type="submit" class="gradient-bg hover:opacity-90 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-lg">
-                        Adquira agora seu eBook
-                    </button>
-                </form>
-                
-                <p class="mt-6 text-purple-100 text-sm">Prometemos não enviar spam. Você pode cancelar sua inscrição a qualquer momento.</p>
-            </div>
-        </div>
-    </section>
+<section id="download" class="py-16 px-4 md:px-8 bg-white">
+  <div class="container mx-auto max-w-4xl text-center">
+    
+    <!-- Card com oferta -->
+    <div class="bg-gradient-to-r from-purple-500 to-pink-500 text-white p-8 rounded-xl shadow-lg transform transition hover:scale-105 duration-300 ease-in-out">
+
+      <!-- Título do preço -->
+      <h2 class="text-2xl md:text-3xl font-semibold mb-2">Oferta Especial por Tempo Limitado</h2>
+      
+      <!-- Preço antigo riscado -->
+      <div class="flex items-center justify-center space-x-4 mb-4">
+        <h3 class="text-lg line-through">De R$149,90</h3>
+        <h2 class="text-4xl font-extrabold text-yellow-300">R$44,70</h2>
+      </div>
+
+      <!-- Botão de CTA -->
+      <div class="mt-6">
+        <a href="#" class="inline-block bg-white text-pink-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-md transition duration-300 transform hover:scale-105">
+          <span class="flex items-center justify-center">
+            <i class="fas fa-book-reader mr-2"></i>
+            QUERO O GUIA COM DESCONTO
+          </span>
+        </a>
+      </div>
+
+      <!-- Informações adicionais -->
+      <p class="mt-4 text-sm text-yellow-100 italic">
+        Acesso imediato • Garantia de 7 dias • Conteúdo atualizado para 2024
+      </p>
+
+    </div>
+
+    <!-- Ícones de benefícios -->
+    <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+      <div class="flex flex-col items-center text-gray-700">
+        <i class="fas fa-book-open text-3xl text-purple-500 mb-2"></i>
+        <p>Guia completo em PDF</p>
+      </div>
+      <div class="flex flex-col items-center text-gray-700">
+        <i class="fas fa-tools text-3xl text-pink-500 mb-2"></i>
+        <p>Ferramentas e recursos recomendados</p>
+      </div>
+      <div class="flex flex-col items-center text-gray-700">
+        <i class="fas fa-download text-3xl text-indigo-500 mb-2"></i>
+        <p>Bônus: planilha + checklist</p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12 px-4 md:px-8">
